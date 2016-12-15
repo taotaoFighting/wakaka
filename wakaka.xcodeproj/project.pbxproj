@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1818E2971E0118370083AA04 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818E2961E0118370083AA04 /* BaseViewController.swift */; };
+		1818E2991E011A0D0083AA04 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818E2981E011A0D0083AA04 /* MainTabBarController.swift */; };
+		1818E29C1E011DB60083AA04 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818E29B1E011DB60083AA04 /* BaseNavigationController.swift */; };
+		1818E2A11E0128B30083AA04 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818E2A01E0128B30083AA04 /* FirstViewController.swift */; };
+		1818E2A31E0128C60083AA04 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818E2A21E0128C60083AA04 /* SecondViewController.swift */; };
+		1818E2A51E0128D00083AA04 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818E2A41E0128D00083AA04 /* ThreeViewController.swift */; };
+		1818E2A71E01344F0083AA04 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1818E2A61E01344F0083AA04 /* images.xcassets */; };
+		18FDDA691DFAA7A0006C4F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDDA681DFAA7A0006C4F53 /* AppDelegate.swift */; };
+		18FDDA6B1DFAA7A0006C4F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDDA6A1DFAA7A0006C4F53 /* ViewController.swift */; };
+		18FDDA6E1DFAA7A0006C4F53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDDA6C1DFAA7A0006C4F53 /* Main.storyboard */; };
+		18FDDA701DFAA7A0006C4F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FDDA6F1DFAA7A0006C4F53 /* Assets.xcassets */; };
+		18FDDA731DFAA7A0006C4F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDDA711DFAA7A0006C4F53 /* LaunchScreen.storyboard */; };
+		18FDDA7E1DFAA7A1006C4F53 /* wakakaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDDA7D1DFAA7A1006C4F53 /* wakakaTests.swift */; };
+		18FDDA891DFAA7A1006C4F53 /* wakakaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDDA881DFAA7A1006C4F53 /* wakakaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FDDA7A1DFAA7A1006C4F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FDDA5D1DFAA7A0006C4F53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FDDA641DFAA7A0006C4F53;
+			remoteInfo = wakaka;
+		};
+		18FDDA851DFAA7A1006C4F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FDDA5D1DFAA7A0006C4F53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FDDA641DFAA7A0006C4F53;
+			remoteInfo = wakaka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1818E2961E0118370083AA04 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1818E2981E011A0D0083AA04 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1818E29B1E011DB60083AA04 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		1818E2A01E0128B30083AA04 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1818E2A21E0128C60083AA04 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1818E2A41E0128D00083AA04 /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		1818E2A61E01344F0083AA04 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		18FDDA651DFAA7A0006C4F53 /* wakaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wakaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDDA681DFAA7A0006C4F53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FDDA6A1DFAA7A0006C4F53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FDDA6D1DFAA7A0006C4F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FDDA6F1DFAA7A0006C4F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FDDA721DFAA7A0006C4F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FDDA741DFAA7A0006C4F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FDDA791DFAA7A1006C4F53 /* wakakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wakakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDDA7D1DFAA7A1006C4F53 /* wakakaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakakaTests.swift; sourceTree = "<group>"; };
+		18FDDA7F1DFAA7A1006C4F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FDDA841DFAA7A1006C4F53 /* wakakaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wakakaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDDA881DFAA7A1006C4F53 /* wakakaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakakaUITests.swift; sourceTree = "<group>"; };
+		18FDDA8A1DFAA7A1006C4F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FDDA9C1DFAA9C9006C4F53 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FDDA621DFAA7A0006C4F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDDA761DFAA7A1006C4F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDDA811DFAA7A1006C4F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1818E2931E0118040083AA04 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		1818E2941E0118040083AA04 /* BaseViewContriller */ = {
+			isa = PBXGroup;
+			children = (
+				1818E2961E0118370083AA04 /* BaseViewController.swift */,
+			);
+			path = BaseViewContriller;
+			sourceTree = "<group>";
+		};
+		1818E2951E0118040083AA04 /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				1818E2981E011A0D0083AA04 /* MainTabBarController.swift */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		1818E29A1E011D980083AA04 /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				1818E29B1E011DB60083AA04 /* BaseNavigationController.swift */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		1818E29D1E01257E0083AA04 /* FirstPageController */ = {
+			isa = PBXGroup;
+			children = (
+				1818E2A01E0128B30083AA04 /* FirstViewController.swift */,
+			);
+			path = FirstPageController;
+			sourceTree = "<group>";
+		};
+		1818E29E1E01257E0083AA04 /* SecondPageController */ = {
+			isa = PBXGroup;
+			children = (
+				1818E2A21E0128C60083AA04 /* SecondViewController.swift */,
+			);
+			path = SecondPageController;
+			sourceTree = "<group>";
+		};
+		1818E29F1E01257E0083AA04 /* ThreePageController */ = {
+			isa = PBXGroup;
+			children = (
+				1818E2A41E0128D00083AA04 /* ThreeViewController.swift */,
+			);
+			path = ThreePageController;
+			sourceTree = "<group>";
+		};
+		18FDDA5C1DFAA7A0006C4F53 = {
+			isa = PBXGroup;
+			children = (
+				18FDDA671DFAA7A0006C4F53 /* wakaka */,
+				18FDDA7C1DFAA7A1006C4F53 /* wakakaTests */,
+				18FDDA871DFAA7A1006C4F53 /* wakakaUITests */,
+				18FDDA661DFAA7A0006C4F53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FDDA661DFAA7A0006C4F53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FDDA651DFAA7A0006C4F53 /* wakaka.app */,
+				18FDDA791DFAA7A1006C4F53 /* wakakaTests.xctest */,
+				18FDDA841DFAA7A1006C4F53 /* wakakaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FDDA671DFAA7A0006C4F53 /* wakaka */ = {
+			isa = PBXGroup;
+			children = (
+				18FDDA681DFAA7A0006C4F53 /* AppDelegate.swift */,
+				18FDDA961DFAA8E8006C4F53 /* BaseConfig */,
+				18FDDA971DFAA8E8006C4F53 /* Controllers */,
+				18FDDA981DFAA8E8006C4F53 /* FrameWorks */,
+				18FDDA991DFAA8E8006C4F53 /* Models */,
+				18FDDA9A1DFAA8E8006C4F53 /* Vendors */,
+				18FDDA9B1DFAA8E8006C4F53 /* Views */,
+				18FDDA6A1DFAA7A0006C4F53 /* ViewController.swift */,
+				18FDDA6C1DFAA7A0006C4F53 /* Main.storyboard */,
+				18FDDA6F1DFAA7A0006C4F53 /* Assets.xcassets */,
+				18FDDA711DFAA7A0006C4F53 /* LaunchScreen.storyboard */,
+				18FDDA741DFAA7A0006C4F53 /* Info.plist */,
+			);
+			path = wakaka;
+			sourceTree = "<group>";
+		};
+		18FDDA7C1DFAA7A1006C4F53 /* wakakaTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FDDA7D1DFAA7A1006C4F53 /* wakakaTests.swift */,
+				18FDDA7F1DFAA7A1006C4F53 /* Info.plist */,
+				18FDDA9C1DFAA9C9006C4F53 /* PrefixHeader.pch */,
+			);
+			path = wakakaTests;
+			sourceTree = "<group>";
+		};
+		18FDDA871DFAA7A1006C4F53 /* wakakaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FDDA881DFAA7A1006C4F53 /* wakakaUITests.swift */,
+				18FDDA8A1DFAA7A1006C4F53 /* Info.plist */,
+			);
+			path = wakakaUITests;
+			sourceTree = "<group>";
+		};
+		18FDDA961DFAA8E8006C4F53 /* BaseConfig */ = {
+			isa = PBXGroup;
+			children = (
+				1818E29A1E011D980083AA04 /* BaseNavigationController */,
+				1818E2931E0118040083AA04 /* BaseModel */,
+				1818E2941E0118040083AA04 /* BaseViewContriller */,
+				1818E2951E0118040083AA04 /* MainTabBarController */,
+				1818E2A61E01344F0083AA04 /* images.xcassets */,
+			);
+			path = BaseConfig;
+			sourceTree = "<group>";
+		};
+		18FDDA971DFAA8E8006C4F53 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1818E29D1E01257E0083AA04 /* FirstPageController */,
+				1818E29E1E01257E0083AA04 /* SecondPageController */,
+				1818E29F1E01257E0083AA04 /* ThreePageController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18FDDA981DFAA8E8006C4F53 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FrameWorks;
+			sourceTree = "<group>";
+		};
+		18FDDA991DFAA8E8006C4F53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18FDDA9A1DFAA8E8006C4F53 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		18FDDA9B1DFAA8E8006C4F53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FDDA641DFAA7A0006C4F53 /* wakaka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDDA8D1DFAA7A1006C4F53 /* Build configuration list for PBXNativeTarget "wakaka" */;
+			buildPhases = (
+				18FDDA611DFAA7A0006C4F53 /* Sources */,
+				18FDDA621DFAA7A0006C4F53 /* Frameworks */,
+				18FDDA631DFAA7A0006C4F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wakaka;
+			productName = wakaka;
+			productReference = 18FDDA651DFAA7A0006C4F53 /* wakaka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FDDA781DFAA7A1006C4F53 /* wakakaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDDA901DFAA7A1006C4F53 /* Build configuration list for PBXNativeTarget "wakakaTests" */;
+			buildPhases = (
+				18FDDA751DFAA7A1006C4F53 /* Sources */,
+				18FDDA761DFAA7A1006C4F53 /* Frameworks */,
+				18FDDA771DFAA7A1006C4F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FDDA7B1DFAA7A1006C4F53 /* PBXTargetDependency */,
+			);
+			name = wakakaTests;
+			productName = wakakaTests;
+			productReference = 18FDDA791DFAA7A1006C4F53 /* wakakaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FDDA831DFAA7A1006C4F53 /* wakakaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDDA931DFAA7A1006C4F53 /* Build configuration list for PBXNativeTarget "wakakaUITests" */;
+			buildPhases = (
+				18FDDA801DFAA7A1006C4F53 /* Sources */,
+				18FDDA811DFAA7A1006C4F53 /* Frameworks */,
+				18FDDA821DFAA7A1006C4F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FDDA861DFAA7A1006C4F53 /* PBXTargetDependency */,
+			);
+			name = wakakaUITests;
+			productName = wakakaUITests;
+			productReference = 18FDDA841DFAA7A1006C4F53 /* wakakaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FDDA5D1DFAA7A0006C4F53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18FDDA641DFAA7A0006C4F53 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 48EHPK785T;
+						ProvisioningStyle = Automatic;
+					};
+					18FDDA781DFAA7A1006C4F53 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 48EHPK785T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FDDA641DFAA7A0006C4F53;
+					};
+					18FDDA831DFAA7A1006C4F53 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 48EHPK785T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FDDA641DFAA7A0006C4F53;
+					};
+				};
+			};
+			buildConfigurationList = 18FDDA601DFAA7A0006C4F53 /* Build configuration list for PBXProject "wakaka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FDDA5C1DFAA7A0006C4F53;
+			productRefGroup = 18FDDA661DFAA7A0006C4F53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FDDA641DFAA7A0006C4F53 /* wakaka */,
+				18FDDA781DFAA7A1006C4F53 /* wakakaTests */,
+				18FDDA831DFAA7A1006C4F53 /* wakakaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FDDA631DFAA7A0006C4F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDDA731DFAA7A0006C4F53 /* LaunchScreen.storyboard in Resources */,
+				1818E2A71E01344F0083AA04 /* images.xcassets in Resources */,
+				18FDDA701DFAA7A0006C4F53 /* Assets.xcassets in Resources */,
+				18FDDA6E1DFAA7A0006C4F53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDDA771DFAA7A1006C4F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDDA821DFAA7A1006C4F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FDDA611DFAA7A0006C4F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDDA6B1DFAA7A0006C4F53 /* ViewController.swift in Sources */,
+				18FDDA691DFAA7A0006C4F53 /* AppDelegate.swift in Sources */,
+				1818E2991E011A0D0083AA04 /* MainTabBarController.swift in Sources */,
+				1818E2A51E0128D00083AA04 /* ThreeViewController.swift in Sources */,
+				1818E2A11E0128B30083AA04 /* FirstViewController.swift in Sources */,
+				1818E2A31E0128C60083AA04 /* SecondViewController.swift in Sources */,
+				1818E29C1E011DB60083AA04 /* BaseNavigationController.swift in Sources */,
+				1818E2971E0118370083AA04 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDDA751DFAA7A1006C4F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDDA7E1DFAA7A1006C4F53 /* wakakaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDDA801DFAA7A1006C4F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDDA891DFAA7A1006C4F53 /* wakakaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FDDA7B1DFAA7A1006C4F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FDDA641DFAA7A0006C4F53 /* wakaka */;
+			targetProxy = 18FDDA7A1DFAA7A1006C4F53 /* PBXContainerItemProxy */;
+		};
+		18FDDA861DFAA7A1006C4F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FDDA641DFAA7A0006C4F53 /* wakaka */;
+			targetProxy = 18FDDA851DFAA7A1006C4F53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FDDA6C1DFAA7A0006C4F53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FDDA6D1DFAA7A0006C4F53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FDDA711DFAA7A0006C4F53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FDDA721DFAA7A0006C4F53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FDDA8B1DFAA7A1006C4F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FDDA8C1DFAA7A1006C4F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FDDA8E1DFAA7A1006C4F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = wakaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itself.wakaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18FDDA8F1DFAA7A1006C4F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = wakaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itself.wakaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18FDDA911DFAA7A1006C4F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = wakakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itself.wakakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wakaka.app/wakaka";
+			};
+			name = Debug;
+		};
+		18FDDA921DFAA7A1006C4F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = wakakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itself.wakakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wakaka.app/wakaka";
+			};
+			name = Release;
+		};
+		18FDDA941DFAA7A1006C4F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = wakakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itself.wakakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wakaka;
+			};
+			name = Debug;
+		};
+		18FDDA951DFAA7A1006C4F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 48EHPK785T;
+				INFOPLIST_FILE = wakakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itself.wakakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wakaka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FDDA601DFAA7A0006C4F53 /* Build configuration list for PBXProject "wakaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDDA8B1DFAA7A1006C4F53 /* Debug */,
+				18FDDA8C1DFAA7A1006C4F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FDDA8D1DFAA7A1006C4F53 /* Build configuration list for PBXNativeTarget "wakaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDDA8E1DFAA7A1006C4F53 /* Debug */,
+				18FDDA8F1DFAA7A1006C4F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FDDA901DFAA7A1006C4F53 /* Build configuration list for PBXNativeTarget "wakakaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDDA911DFAA7A1006C4F53 /* Debug */,
+				18FDDA921DFAA7A1006C4F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FDDA931DFAA7A1006C4F53 /* Build configuration list for PBXNativeTarget "wakakaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDDA941DFAA7A1006C4F53 /* Debug */,
+				18FDDA951DFAA7A1006C4F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FDDA5D1DFAA7A0006C4F53 /* Project object */;
+}
