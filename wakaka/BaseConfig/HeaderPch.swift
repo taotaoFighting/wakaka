@@ -8,8 +8,11 @@
 
 import UIKit
 
+
 let KS_Width = UIScreen.main.bounds.size.width
 
 let KS_Height = UIScreen.main.bounds.size.height
 
 let indentifier = "firstCell"
+
+let FIRSTURL = "http://chanyouji.com/api/trips/featured.json"

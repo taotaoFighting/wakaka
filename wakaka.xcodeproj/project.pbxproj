@@ -17,12 +17,15 @@
 		183EF1561E027A6D00FCF034 /* HeaderPch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EF1551E027A6D00FCF034 /* HeaderPch.swift */; };
 		183EF15C1E028B3000FCF034 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EF15A1E028B3000FCF034 /* FirstTableViewCell.swift */; };
 		183EF15D1E028B3000FCF034 /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183EF15B1E028B3000FCF034 /* FirstTableViewCell.xib */; };
+		18E5D4B01E08C1ED00ECE00F /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D4AF1E08C1ED00ECE00F /* ListModel.swift */; };
+		18E5D4B21E08C38E00ECE00F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D4B11E08C38E00ECE00F /* User.swift */; };
 		18FDDA691DFAA7A0006C4F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDDA681DFAA7A0006C4F53 /* AppDelegate.swift */; };
 		18FDDA6E1DFAA7A0006C4F53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDDA6C1DFAA7A0006C4F53 /* Main.storyboard */; };
 		18FDDA701DFAA7A0006C4F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FDDA6F1DFAA7A0006C4F53 /* Assets.xcassets */; };
 		18FDDA731DFAA7A0006C4F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDDA711DFAA7A0006C4F53 /* LaunchScreen.storyboard */; };
 		18FDDA7E1DFAA7A1006C4F53 /* wakakaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDDA7D1DFAA7A1006C4F53 /* wakakaTests.swift */; };
 		18FDDA891DFAA7A1006C4F53 /* wakakaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDDA881DFAA7A1006C4F53 /* wakakaUITests.swift */; };
+		F7B003FFFC1D4509AB849FAB /* Pods_wakaka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E00578D2EA0C2C6A18444F /* Pods_wakaka.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,8 @@
 		183EF1551E027A6D00FCF034 /* HeaderPch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderPch.swift; sourceTree = "<group>"; };
 		183EF15A1E028B3000FCF034 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
 		183EF15B1E028B3000FCF034 /* FirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTableViewCell.xib; sourceTree = "<group>"; };
+		18E5D4AF1E08C1ED00ECE00F /* ListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListModel.swift; path = wakaka/Controllers/FirstPageController/Cells/ListModel.swift; sourceTree = SOURCE_ROOT; };
+		18E5D4B11E08C38E00ECE00F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = wakaka/Controllers/FirstPageController/Cells/User.swift; sourceTree = SOURCE_ROOT; };
 		18FDDA651DFAA7A0006C4F53 /* wakaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wakaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FDDA681DFAA7A0006C4F53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FDDA6D1DFAA7A0006C4F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +71,9 @@
 		18FDDA881DFAA7A1006C4F53 /* wakakaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakakaUITests.swift; sourceTree = "<group>"; };
 		18FDDA8A1DFAA7A1006C4F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18FDDA9C1DFAA9C9006C4F53 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		22E00578D2EA0C2C6A18444F /* Pods_wakaka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wakaka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D6A6747E5631070C86F5A6 /* Pods-wakaka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wakaka.release.xcconfig"; path = "Pods/Target Support Files/Pods-wakaka/Pods-wakaka.release.xcconfig"; sourceTree = "<group>"; };
+		E753D3EBC118E56AA4E5FCEF /* Pods-wakaka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wakaka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wakaka/Pods-wakaka.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B003FFFC1D4509AB849FAB /* Pods_wakaka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,8 @@
 		183EF1571E028AD500FCF034 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18E5D4AF1E08C1ED00ECE00F /* ListModel.swift */,
+				18E5D4B11E08C38E00ECE00F /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +192,8 @@
 				18FDDA7C1DFAA7A1006C4F53 /* wakakaTests */,
 				18FDDA871DFAA7A1006C4F53 /* wakakaUITests */,
 				18FDDA661DFAA7A0006C4F53 /* Products */,
+				D5DA1D09665DBBA8B7EA84BE /* Pods */,
+				B5B6C303A868DBC55F908F47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -282,6 +295,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B5B6C303A868DBC55F908F47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22E00578D2EA0C2C6A18444F /* Pods_wakaka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5DA1D09665DBBA8B7EA84BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E753D3EBC118E56AA4E5FCEF /* Pods-wakaka.debug.xcconfig */,
+				B7D6A6747E5631070C86F5A6 /* Pods-wakaka.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -289,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18FDDA8D1DFAA7A1006C4F53 /* Build configuration list for PBXNativeTarget "wakaka" */;
 			buildPhases = (
+				51BDFFB46E816B9A9639BBEA /* [CP] Check Pods Manifest.lock */,
 				18FDDA611DFAA7A0006C4F53 /* Sources */,
 				18FDDA621DFAA7A0006C4F53 /* Frameworks */,
 				18FDDA631DFAA7A0006C4F53 /* Resources */,
+				242B8C6FFF3EF82D0CE12D32 /* [CP] Embed Pods Frameworks */,
+				1F681011E67C2AF1EDA0D377 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -416,6 +449,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F681011E67C2AF1EDA0D377 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wakaka/Pods-wakaka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		242B8C6FFF3EF82D0CE12D32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wakaka/Pods-wakaka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51BDFFB46E816B9A9639BBEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18FDDA611DFAA7A0006C4F53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -430,6 +511,8 @@
 				1818E29C1E011DB60083AA04 /* BaseNavigationController.swift in Sources */,
 				183EF1561E027A6D00FCF034 /* HeaderPch.swift in Sources */,
 				1818E2971E0118370083AA04 /* BaseViewController.swift in Sources */,
+				18E5D4B01E08C1ED00ECE00F /* ListModel.swift in Sources */,
+				18E5D4B21E08C38E00ECE00F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +660,7 @@
 		};
 		18FDDA8E1DFAA7A1006C4F53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E753D3EBC118E56AA4E5FCEF /* Pods-wakaka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48EHPK785T;
@@ -590,6 +674,7 @@
 		};
 		18FDDA8F1DFAA7A1006C4F53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D6A6747E5631070C86F5A6 /* Pods-wakaka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48EHPK785T;

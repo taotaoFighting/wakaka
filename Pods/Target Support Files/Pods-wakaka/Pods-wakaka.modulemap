@@ -1,0 +1,6 @@
+framework module Pods_wakaka {
+  umbrella header "Pods-wakaka-umbrella.h"
+
+  export *
+  module * { export * }
+}

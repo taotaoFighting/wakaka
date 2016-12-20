@@ -1,0 +1,6 @@
+framework module TTReflect {
+  umbrella header "TTReflect-umbrella.h"
+
+  export *
+  module * { export * }
+}
