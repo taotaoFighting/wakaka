@@ -17,7 +17,6 @@ class SecondViewController: BaseViewController {
         
         self.view.backgroundColor = UIColor.brown
 
-
         // Do any additional setup after loading the view.
     }
 

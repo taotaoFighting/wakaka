@@ -10,18 +10,44 @@ import UIKit
 import Alamofire
 import TTReflect
 
-class FirstViewController: BaseViewController ,UITableViewDelegate,UITableViewDataSource{
+class FirstViewController: BaseViewController //,UITableViewDelegate,UITableViewDataSource
+{
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.navigationItem.title = "首页"
         
-        self.view .addSubview(self.mainTableView)
+        self.automaticallyAdjustsScrollViewInsets = false
+        
+//        self.view .addSubview(self.mainTableView)
         
         self.requestData()
         
+        self.view.addSubview(self.listView_left)
+        
+        self.view.addSubview(self.listView_right)
+        
+        
+        
+        
     }
+    
+    lazy var listView_left:ListView = {
+      
+        let listView:ListView = ListView.init(frame: CGRect(x: 0, y: 0, width: KS_Width / 2 - 5, height: KS_Height - 64 - 49))
+        
+        return listView
+        
+    }()
+    
+    lazy var listView_right:ListView_right = {
+        
+        let listView_right:ListView_right = ListView_right.init(frame: CGRect(x: KS_Width / 2 + 5, y: 64, width: KS_Width / 2 - 5, height: KS_Height - 64 - 49))
+        
+        return listView_right
+        
+    }()
     
     /**
      * 请求数据
@@ -42,13 +68,27 @@ class FirstViewController: BaseViewController ,UITableViewDelegate,UITableViewDa
                 
                 let listModel = Reflect<ListModel>.mapObject(json: tmpDict)
                 
-                self.dataArr .add(listModel)
+//                self.dataArr .add(listModel)
+                
+                self.listView_left.dataArr .add(listModel)
+                
+                self.listView_right.dataArr.add(listModel)
                 
             })
             
-            print("count = ",self.dataArr.count)
+//            self.listView_left.dataArr = self.dataArr
             
-            self.mainTableView.reloadData()
+            self.listView_left.mainTableView.reloadData()
+            
+//            let tmpArr:NSMutableArray = NSMutableArray.init(array: self.dataArr)
+//            
+//            self.listView_right.dataArr = tmpArr
+            
+            self.listView_right.mainTableView.reloadData()
+            
+//            print("count = ",self.dataArr.count)
+//            
+//            self.mainTableView.reloadData()
         }
         
         
@@ -64,6 +104,9 @@ class FirstViewController: BaseViewController ,UITableViewDelegate,UITableViewDa
         
         return dataArr
     }()
+    
+    
+ /*
     
     /**
      * tableView 懒加载
@@ -148,6 +191,7 @@ class FirstViewController: BaseViewController ,UITableViewDelegate,UITableViewDa
         return (listModel?.cellHeight)!
     }
     
+ */
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -30,11 +30,13 @@ class FirstTableViewCell: UITableViewCell {
     
     var cellHeight : changeCellHeight?
     
+    var cellHeight_right : changeCellHeight?
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        self.headerImageView.layer.cornerRadius = 30
+        self.headerImageView.layer.cornerRadius = 20
         
         self.headerImageView.clipsToBounds = true
         
@@ -57,20 +59,62 @@ class FirstTableViewCell: UITableViewCell {
         
         self.foreImageView.kf.setImage(with: URL.init(string: listModel.front_cover_photo_url), placeholder: nil, options: nil, progressBlock: { (receivedSize, totalSize) -> () in
             print("Download Progress: \(receivedSize)/\(totalSize)")
+            
+            if receivedSize / totalSize == 1 && self.cellHeight != nil && listModel.cellHeight == 0{
+                
+                
+            }
+            
         }, completionHandler: { (image, error, cacheType, imageURL) -> () in
             
-            print("%f%f",image?.size.height ?? "2",image?.size.width ?? "1")
-            
-            if self.cellHeight != nil{
+            if self.cellHeight != nil && listModel.cellHeight == 0{
                 
-                self.cellHeight!(KS_Width / (image?.size.width)! * (image?.size.height)!)
+                print("cell_left_cell_height = %f%f",image?.size.height ?? "2",image?.size.width ?? "1")
+                
+                self.cellHeight!((KS_Width / 2) / (image?.size.width)! * (image?.size.height)!)
             }
-           
+            
+            
             
         })
         
         
     }
+    
+    func bindDataWithModel_right(listModel:ListModel) -> Void {
+        
+        self.userNameLabel.text = listModel.user.name
+        
+        self.titleLabel.text = listModel.name
+        
+        self.subTitleLabel.text = listModel.start_date.appending("  --  >").appending(listModel.end_date)
+        
+        //        self.foreImageView.kf.setImage(with: URL.init(string: listModel.front_cover_photo_url))
+        
+        self.headerImageView.kf.setImage(with: URL.init(string: listModel.user.image))
+        
+        
+        
+        self.foreImageView.kf.setImage(with: URL.init(string: listModel.front_cover_photo_url), placeholder: nil, options: nil, progressBlock: { (receivedSize, totalSize) -> () in
+            
+            print("Download Progress: \(receivedSize)/\(totalSize)")
+            
+        }, completionHandler: { (image, error, cacheType, imageURL) -> () in
+            
+            if self.cellHeight_right != nil && listModel.cellHeight == 0{
+                
+                print("cell_right_cell_height = %f%f",image?.size.height ?? "2",image?.size.width ?? "1")
+                
+                self.cellHeight_right!((KS_Width / 2) / (image?.size.width)! * (image?.size.height)!)
+                
+            }
+        })
+        
+        
+    }
+
+    
+
     
 
     override func setSelected(_ selected: Bool, animated: Bool) {

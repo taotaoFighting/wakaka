@@ -17,8 +17,15 @@
 		183EF1561E027A6D00FCF034 /* HeaderPch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EF1551E027A6D00FCF034 /* HeaderPch.swift */; };
 		183EF15C1E028B3000FCF034 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EF15A1E028B3000FCF034 /* FirstTableViewCell.swift */; };
 		183EF15D1E028B3000FCF034 /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183EF15B1E028B3000FCF034 /* FirstTableViewCell.xib */; };
+		186DB8821E0CFCCF0083A3CD /* LocalNotifition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DB8811E0CFCCF0083A3CD /* LocalNotifition.swift */; };
+		186DB8871E0D2A600083A3CD /* CustomSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DB8851E0D2A600083A3CD /* CustomSubview.swift */; };
+		186DB8881E0D2A600083A3CD /* CustomSubview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186DB8861E0D2A600083A3CD /* CustomSubview.xib */; };
+		186DB88A1E0D2C430083A3CD /* BeatAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DB8891E0D2C430083A3CD /* BeatAnimator.swift */; };
+		186DB88C1E0D2C500083A3CD /* PacmanAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DB88B1E0D2C500083A3CD /* PacmanAnimator.swift */; };
 		18E5D4B01E08C1ED00ECE00F /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D4AF1E08C1ED00ECE00F /* ListModel.swift */; };
 		18E5D4B21E08C38E00ECE00F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D4B11E08C38E00ECE00F /* User.swift */; };
+		18F287991E0A16E100702A60 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F287981E0A16E100702A60 /* ListView.swift */; };
+		18F2879B1E0A1C7F00702A60 /* ListView_right.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2879A1E0A1C7F00702A60 /* ListView_right.swift */; };
 		18FDDA691DFAA7A0006C4F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDDA681DFAA7A0006C4F53 /* AppDelegate.swift */; };
 		18FDDA6E1DFAA7A0006C4F53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDDA6C1DFAA7A0006C4F53 /* Main.storyboard */; };
 		18FDDA701DFAA7A0006C4F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FDDA6F1DFAA7A0006C4F53 /* Assets.xcassets */; };
@@ -56,8 +63,15 @@
 		183EF1551E027A6D00FCF034 /* HeaderPch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderPch.swift; sourceTree = "<group>"; };
 		183EF15A1E028B3000FCF034 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
 		183EF15B1E028B3000FCF034 /* FirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTableViewCell.xib; sourceTree = "<group>"; };
+		186DB8811E0CFCCF0083A3CD /* LocalNotifition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotifition.swift; sourceTree = "<group>"; };
+		186DB8851E0D2A600083A3CD /* CustomSubview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSubview.swift; sourceTree = "<group>"; };
+		186DB8861E0D2A600083A3CD /* CustomSubview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSubview.xib; sourceTree = "<group>"; };
+		186DB8891E0D2C430083A3CD /* BeatAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatAnimator.swift; sourceTree = "<group>"; };
+		186DB88B1E0D2C500083A3CD /* PacmanAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacmanAnimator.swift; sourceTree = "<group>"; };
 		18E5D4AF1E08C1ED00ECE00F /* ListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListModel.swift; path = wakaka/Controllers/FirstPageController/Cells/ListModel.swift; sourceTree = SOURCE_ROOT; };
 		18E5D4B11E08C38E00ECE00F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = wakaka/Controllers/FirstPageController/Cells/User.swift; sourceTree = SOURCE_ROOT; };
+		18F287981E0A16E100702A60 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = wakaka/Controllers/FirstPageController/Cells/ListView.swift; sourceTree = SOURCE_ROOT; };
+		18F2879A1E0A1C7F00702A60 /* ListView_right.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListView_right.swift; path = wakaka/Controllers/FirstPageController/Cells/ListView_right.swift; sourceTree = SOURCE_ROOT; };
 		18FDDA651DFAA7A0006C4F53 /* wakaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wakaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FDDA681DFAA7A0006C4F53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FDDA6D1DFAA7A0006C4F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -172,6 +186,8 @@
 		183EF1581E028AD500FCF034 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18F287981E0A16E100702A60 /* ListView.swift */,
+				18F2879A1E0A1C7F00702A60 /* ListView_right.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +199,33 @@
 				183EF15B1E028B3000FCF034 /* FirstTableViewCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		186DB8801E0CFCAB0083A3CD /* LocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				186DB8811E0CFCCF0083A3CD /* LocalNotifition.swift */,
+			);
+			path = LocalNotification;
+			sourceTree = "<group>";
+		};
+		186DB8831E0D2A600083A3CD /* Vonders */ = {
+			isa = PBXGroup;
+			children = (
+				186DB8841E0D2A600083A3CD /* RefresherCustomView */,
+			);
+			path = Vonders;
+			sourceTree = "<group>";
+		};
+		186DB8841E0D2A600083A3CD /* RefresherCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				186DB8891E0D2C430083A3CD /* BeatAnimator.swift */,
+				186DB88B1E0D2C500083A3CD /* PacmanAnimator.swift */,
+				186DB8851E0D2A600083A3CD /* CustomSubview.swift */,
+				186DB8861E0D2A600083A3CD /* CustomSubview.xib */,
+			);
+			path = RefresherCustomView;
 			sourceTree = "<group>";
 		};
 		18FDDA5C1DFAA7A0006C4F53 = {
@@ -210,13 +253,11 @@
 		18FDDA671DFAA7A0006C4F53 /* wakaka */ = {
 			isa = PBXGroup;
 			children = (
+				186DB8831E0D2A600083A3CD /* Vonders */,
 				18FDDA681DFAA7A0006C4F53 /* AppDelegate.swift */,
 				18FDDA961DFAA8E8006C4F53 /* BaseConfig */,
 				18FDDA971DFAA8E8006C4F53 /* Controllers */,
 				18FDDA981DFAA8E8006C4F53 /* FrameWorks */,
-				18FDDA991DFAA8E8006C4F53 /* Models */,
-				18FDDA9A1DFAA8E8006C4F53 /* Vendors */,
-				18FDDA9B1DFAA8E8006C4F53 /* Views */,
 				18FDDA6C1DFAA7A0006C4F53 /* Main.storyboard */,
 				18FDDA6F1DFAA7A0006C4F53 /* Assets.xcassets */,
 				18FDDA711DFAA7A0006C4F53 /* LaunchScreen.storyboard */,
@@ -247,6 +288,7 @@
 		18FDDA961DFAA8E8006C4F53 /* BaseConfig */ = {
 			isa = PBXGroup;
 			children = (
+				186DB8801E0CFCAB0083A3CD /* LocalNotification */,
 				1818E29A1E011D980083AA04 /* BaseNavigationController */,
 				1818E2931E0118040083AA04 /* BaseModel */,
 				1818E2941E0118040083AA04 /* BaseViewContriller */,
@@ -272,27 +314,6 @@
 			children = (
 			);
 			path = FrameWorks;
-			sourceTree = "<group>";
-		};
-		18FDDA991DFAA8E8006C4F53 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		18FDDA9A1DFAA8E8006C4F53 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendors;
-			sourceTree = "<group>";
-		};
-		18FDDA9B1DFAA8E8006C4F53 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		B5B6C303A868DBC55F908F47 /* Frameworks */ = {
@@ -429,6 +450,7 @@
 				18FDDA731DFAA7A0006C4F53 /* LaunchScreen.storyboard in Resources */,
 				1818E2A71E01344F0083AA04 /* images.xcassets in Resources */,
 				18FDDA701DFAA7A0006C4F53 /* Assets.xcassets in Resources */,
+				186DB8881E0D2A600083A3CD /* CustomSubview.xib in Resources */,
 				18FDDA6E1DFAA7A0006C4F53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,15 +526,21 @@
 			files = (
 				183EF15C1E028B3000FCF034 /* FirstTableViewCell.swift in Sources */,
 				18FDDA691DFAA7A0006C4F53 /* AppDelegate.swift in Sources */,
+				18F2879B1E0A1C7F00702A60 /* ListView_right.swift in Sources */,
 				1818E2991E011A0D0083AA04 /* MainTabBarController.swift in Sources */,
+				186DB88A1E0D2C430083A3CD /* BeatAnimator.swift in Sources */,
 				1818E2A51E0128D00083AA04 /* ThreeViewController.swift in Sources */,
 				1818E2A11E0128B30083AA04 /* FirstViewController.swift in Sources */,
+				186DB8871E0D2A600083A3CD /* CustomSubview.swift in Sources */,
 				1818E2A31E0128C60083AA04 /* SecondViewController.swift in Sources */,
 				1818E29C1E011DB60083AA04 /* BaseNavigationController.swift in Sources */,
 				183EF1561E027A6D00FCF034 /* HeaderPch.swift in Sources */,
+				18F287991E0A16E100702A60 /* ListView.swift in Sources */,
+				186DB8821E0CFCCF0083A3CD /* LocalNotifition.swift in Sources */,
 				1818E2971E0118370083AA04 /* BaseViewController.swift in Sources */,
 				18E5D4B01E08C1ED00ECE00F /* ListModel.swift in Sources */,
 				18E5D4B21E08C38E00ECE00F /* User.swift in Sources */,
+				186DB88C1E0D2C500083A3CD /* PacmanAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,8 +691,11 @@
 			baseConfigurationReference = E753D3EBC118E56AA4E5FCEF /* Pods-wakaka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 48EHPK785T;
 				INFOPLIST_FILE = wakaka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itself.wakaka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -677,8 +708,11 @@
 			baseConfigurationReference = B7D6A6747E5631070C86F5A6 /* Pods-wakaka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 48EHPK785T;
 				INFOPLIST_FILE = wakaka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itself.wakaka;
 				PRODUCT_NAME = "$(TARGET_NAME)";

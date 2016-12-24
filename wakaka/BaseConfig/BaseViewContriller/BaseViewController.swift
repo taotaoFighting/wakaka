@@ -15,6 +15,13 @@ class BaseViewController: UIViewController {
         
         
     }
+    
+    class func showAlert(){
+        
+       print("showAlert")
+        
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

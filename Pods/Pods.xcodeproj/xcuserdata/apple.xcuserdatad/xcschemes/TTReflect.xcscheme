@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1DF60861342FB045CD9555B3DBC9AF3A'
+               BlueprintIdentifier = '07820E2340C29A9AC83AABC1D705F0EE'
                BlueprintName = 'TTReflect'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TTReflect.framework'>
