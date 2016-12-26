@@ -72,14 +72,43 @@ class BeatAnimator: UIView, PullToRefreshViewDelegate {
         
         shapeLayer.frame = rect
         
+        let height = rect.size.height
+        
+//        let width = rect.size.width / 3
+        
         let aPath:UIBezierPath = UIBezierPath.init()
         
+        //1.
         aPath.move(to: CGPoint(x: rect.size.width / 2, y: 10))
         
-        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 7, y: (rect.size.height - 20)))
+        //2.
+        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 6, y: height / 10 * 3.5))
         
-        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 3 , y: rect.size.height - 20))
+        //3.
+        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 7.5, y: height / 10 * 3.5))
         
+        //4.
+        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 6.3 , y: height / 10 * 6))
+        
+        //5.
+        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 6.6, y: height - 10))
+        
+        //6.
+        aPath.addLine(to: CGPoint(x: rect.size.width / 2, y: height / 10 * 7))
+        
+        //7.
+        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 3.4, y: height - 10))
+        
+        //8.
+        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 3.7 , y: height / 10 * 6))
+        
+        //9.
+        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 2.5, y: height / 10 * 3.5))
+        
+        //10.
+        aPath.addLine(to: CGPoint(x: rect.size.width / 10 * 4, y: height / 10 * 3.5))
+        
+        //1.
         aPath.addLine(to: CGPoint(x: rect.size.width / 2, y: 10))
         
         aPath.close()
@@ -101,7 +130,7 @@ class BeatAnimator: UIView, PullToRefreshViewDelegate {
         
         ca.shadowOffset = CGSize(width: 4, height: 0)
         
-        ca.shadowRadius = 5
+        ca.shadowRadius = 15
         
         ca.shadowOpacity = 0.1
         
@@ -109,7 +138,7 @@ class BeatAnimator: UIView, PullToRefreshViewDelegate {
         
         shapeLayer.fillColor = UIColor.clear.cgColor
         
-        shapeLayer.addSublayer(ca)
+//        shapeLayer.addSublayer(ca)
         
         self.layer.addSublayer(shapeLayer)
         
