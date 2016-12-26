@@ -15,9 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
         print("你是头猪吗")
         print("你是头猪吗")
         print("你是头猪吗")
+
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         
         self.window?.backgroundColor = UIColor.white
