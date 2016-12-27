@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         print("你是头猪吗");
-        print("你是头猪吗");
+        print("我是从git提交");
         print("我是从git提交");
 
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
