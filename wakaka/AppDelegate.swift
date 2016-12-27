@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         print("你是头猪吗");
         print("你是头猪吗");
-        print("你是头猪吗");
+        print("我是从git提交");
 
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         
